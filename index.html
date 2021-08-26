@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Birthday</title>
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Check out if your <span class="clr-change">Birthdate</span> is <span class="clr-change">Palidrome</span>.
+        </h1>
+        <h2>A palindrome is a word/number which reads the same backward as forward</h2>
+
+        <div style="color: darkred; font-weight: 600;">This app checks your birthdate in 6 formats yyyy-mm-dd,
+            dd-mm-yyyy, mm-dd-yy, dd-mm-yy, mm-dd-yy, yy-mm-dd</div>
+
+        <!-- <div id="notice-div">
+            <div style="font-weight: bold; margin: 0; padding-bottom: 5px;">Notice:</div> We are not storing any
+            personal information!
+        </div> -->
+
+        <input type="date" id="date-input" required />
+
+        <button id="check-btn">Check</button>
+
+        <!-- <div class="loading-animation">
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_xiwiffnd.json" background="transparent"
+                speed="1.2" id="loading-lottie" loop autoplay></lottie-player>
+        </div> -->
+
+        <div id="output"></div>
+
+        <footer>
+            <div>
+                <span>
+                    Made by Shubham H
+                </span>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
